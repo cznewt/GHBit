@@ -110,22 +110,30 @@ namespace GHBit {
         //% blockId="speed3" block="3"
         speed3 = 4000
     }
-    
+
     export enum enRocker {
-        //% blockId="Nostate" block="Nostate"
-        Nostate = 0,
-        //% blockId="Up" block="Up"
-        Up,
-        //% blockId="Down" block="Down"
-        Down,
-        //% blockId="Left" block="Left"
-        Left,
-        //% blockId="Right" block="Right"
-        Right,
-        //% blockId="Press" block="Press"
-        Press
-    }
-    
+      //% blockId="Nostate" block="Nostate"
+      Nostate = 0,
+      //% blockId="Up" block="Up"
+      Up,
+      //% blockId="UpLeft" block="UpLeft"
+      UpLeft,
+      //% blockId="UpRight" block="UpRight"
+      UpRight,
+      //% blockId="Down" block="Down"
+      Down,
+      //% blockId="DownLeft" block="DownLeft"
+      DownLeft,
+      //% blockId="DownRight" block="DownRight"
+      DownRight,
+      //% blockId="Left" block="Left"
+      Left,
+      //% blockId="Right" block="Right"
+      Right,
+      //% blockId="Press" block="Press"
+      Press
+  }
+  
     export enum enButtonState {
         //% blockId="Press" block="Press"
         Press = 0,
@@ -276,24 +284,41 @@ namespace GHBit {
         let z = pins.digitalReadPin(DigitalPin.P8);
         let now_state = enRocker.Nostate;
 
-        if (x < 200) // 上
+        if (x < 300) // 上
         {
-
-            now_state = enRocker.Up;
-
+            if (y < 300) //右
+            {
+                now_state = enRocker.UpRight;
+            }
+            else if (y > 700) //左 900 -> 730
+            {
+                now_state = enRocker.UpLeft;
+            }
+            else {
+                now_state = enRocker.Up;
+            }
         }
-        else if (x > 730) //下 900 -> 730
+        else if (x > 700) //下 900 -> 730
         {
-
-            now_state = enRocker.Down;
+            if (y < 300) //右
+            {
+                now_state = enRocker.DownRight;
+            }
+            else if (y > 700) //左 900 -> 730
+            {
+                now_state = enRocker.DownLeft;
+            }
+            else {
+                now_state = enRocker.Down;
+            }
         }
         else  // 左右
         {
-            if (y < 200) //右
+            if (y < 300) //右
             {
                 now_state = enRocker.Right;
             }
-            else if (y > 730) //左 900 -> 730
+            else if (y > 700) //左 900 -> 730
             {
                 now_state = enRocker.Left;
             }
