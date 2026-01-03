@@ -40,7 +40,7 @@
 	"GHBit.enRocker.Right|block": "右",
 	"GHBit.enRocker.Press|block": "按下",
 	"GHBit.enButtonState.Press|block": "按下",
-	"GHBit.enButtonState.Realse|block": "松开",
+	"GHBit.enButtonState.Release|block": "松开",
 	
 	"GHBit.enColor.OFF|block": "熄灭",
 	"GHBit.enColor.RED|block": "红色",

@@ -1,0 +1,54 @@
+{
+  "GHBit.RGB_Program|block": "Handle Seven-color flowing light",
+  "GHBit.RGB_Program_Close|block": "Turn off the rainbow lights",  
+  "GHBit.Min_Motor_Shake|block": "Handheld remote control|Vibration %value",
+  "GHBit.Rocker|block": "Gamepad joystick|Back %value",
+  "GHBit.Button|block": "Controller Buttons|Select %num|Return %value",
+
+  "GHBit.Music_Handle|block": "Gamepad music playback|%index",
+  "GHBit.Servo_Handle|block": "Handle servo|Serial number %num|Angle %value",
+  "GHBit.Ultrasonic_Handle|block": "Ultrasonic return",
+  "GHBit.Ultrasonic_Handle_V2|block": "Ultrasonic v2 return",
+  "GHBit.RGB_Colorful|block": "RGB spotlight for game controller| %value",
+  "GHBit.Stepper_Motor|block": "Stepper motor| %value|Speed%value1",
+  "GHBit.Min_Motor|block": "Fan|%value",
+  "GHBit.Rotate|block": "Knob angle|%value",
+  "GHBit.Beam|block": "Illumination|%value",
+  
+  "GHBit.STepper.Stepper|block": "Forward",
+  "GHBit.STepper.Stepper0|block": "Reverse",
+  "GHBit.STepper.Stepper1|block": "Stop",
+  
+  "GHBit.Angle.Angle0|block": "1",
+  "GHBit.Angle.Angle1|block": "2",
+  "GHBit.Angle.Angle2|block": "3",
+  "GHBit.Angle.Angle3|block": "4",
+  "GHBit.Angle.Angle4|block": "5",
+  "GHBit.Angle.Angle5|block": "6",
+  "GHBit.Angle.Angle6|block": "7",
+  "GHBit.Angle.Angle7|block": "8",
+	
+	"GHBit.Beamstate.bright|block": "Daytime",
+	"GHBit.Beamstate.dark|block": "Night",
+	"GHBit.Motorshock.OFF|block": "Off",
+	"GHBit.Motorshock.ON|block": "On",
+	
+	"GHBit.enRocker.Nostate|block": "No state",
+	"GHBit.enRocker.Up|block": "Up",
+	"GHBit.enRocker.Down|block": "Down",
+	"GHBit.enRocker.Left|block": "Left",
+	"GHBit.enRocker.Right|block": "Right",
+	"GHBit.enRocker.Press|block": "Press",
+	"GHBit.enButtonState.Press|block": "Press",
+	"GHBit.enButtonState.Release|block": "Release",
+	
+	"GHBit.enColor.OFF|block": "Off",
+	"GHBit.enColor.RED|block": "Red",
+	"GHBit.enColor.GREEN|block": "Green",
+	"GHBit.enColor.BLUE|block": "Blue",
+	"GHBit.enColor.WHITE|block": "White",
+	"GHBit.enColor.CYAN|block": "Cyan",
+	"GHBit.enColor.PINKISH|block": "Pink",
+	"GHBit.enColor.YELLOW|block": "Yellow"
+
+}

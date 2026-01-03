@@ -137,8 +137,8 @@ namespace GHBit {
     export enum enButtonState {
         //% blockId="Press" block="Press"
         Press = 0,
-        //% blockId="Realse" block="Realse"
-        Realse = 1
+        //% blockId="Release" block="Release"
+        Release = 1
     }
     
     export enum enButton {
