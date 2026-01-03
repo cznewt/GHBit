@@ -7,8 +7,8 @@
 
   "GHBit.Music_Handle|block": "Gamepad music playback|%index",
   "GHBit.Servo_Handle|block": "Handle servo|Serial number %num|Angle %value",
-  "GHBit.Ultrasonic_Handle|block": "Ultrasonic return",
-  "GHBit.Ultrasonic_Handle_V2|block": "Ultrasonic v2 return",
+  "GHBit.Ultrasonic_Handle|block": "Ultrasonic return distance (cm)",
+  "GHBit.Ultrasonic_Handle_V2|block": "Ultrasonic_V2 return distance (cm)",
   "GHBit.RGB_Colorful|block": "RGB spotlight for game controller| %value",
   "GHBit.Stepper_Motor|block": "Stepper motor| %value|Speed%value1",
   "GHBit.Min_Motor|block": "Fan|%value",
