@@ -31,29 +31,29 @@ namespace GHBit {
     let yahStrip: neopixel.Strip;
     
     export enum STepper {
-        //% blockId="Stepper" block="foreward"
+        //% blockId="Stepper" block="Forward"
         Stepper = 0,
-        //% blockId="Stepper0" block="reversal"
+        //% blockId="Stepper0" block="Reverse"
         Stepper0,
         //% blockId="Stepper1" block="Stop"
         Stepper1
     }
     export enum Angle {
-        //% blockId="Angle0" block="first gear"
+        //% blockId="Angle0" block="First gear"
         Angle0 = 0,
-        //% blockId="Angle1" block="second gear"
+        //% blockId="Angle1" block="Second gear"
         Angle1,
-        //% blockId="Angle2" block="third gear"
+        //% blockId="Angle2" block="Third gear"
         Angle2,
-        //% blockId="Angle3" block="forth gear"
+        //% blockId="Angle3" block="Fourth gear"
         Angle3,
-        //% blockId="Angle4" block="fifth gear"
+        //% blockId="Angle4" block="Fifth gear"
         Angle4,
-        //% blockId="Angle5" block="sixth gear"
+        //% blockId="Angle5" block="Sixth gear"
         Angle5,
-        //% blockId="Angle6" block="seventh gear"
+        //% blockId="Angle6" block="Seventh gear"
         Angle6,
-        //% blockId="Angle7" block="eighth gear"
+        //% blockId="Angle7" block="Eighth gear"
         Angle7
     }
     export enum Beamstate {
